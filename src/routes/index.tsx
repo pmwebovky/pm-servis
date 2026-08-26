@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Phone } from "lucide-react";
+import { ChevronDown, Phone } from "lucide-react";
 import { SiteLayout } from "@/components/SiteLayout";
 import { FleetCard } from "@/components/FleetCard";
 import { fleet, company } from "@/data/site";
@@ -81,6 +81,12 @@ function Index() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-14 flex flex-col items-center gap-2 text-muted-foreground">
+          <span className="text-xs font-bold uppercase tracking-widest">
+            Scrollujte dolů
+          </span>
+          <ChevronDown className="size-5 animate-bounce text-gold" />
         </div>
       </section>
 
