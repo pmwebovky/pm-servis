@@ -44,7 +44,7 @@ export type Vehicle = {
 export const fleet: Vehicle[] = [
   {
     slug: "man-lions-coach",
-    name: "MAN Lion´s Coach R08 hfsljdjhfdslk",
+    name: "MAN Lion´s Coach R08",
     tagline: "Vlajková loď flotily",
     seats: "57 + 1 + 1",
     image: fleetMan,
@@ -52,7 +52,7 @@ export const fleet: Vehicle[] = [
     description:
       "Reprezentativní dálkový autobus pro velké skupiny, zájezdy a firemní akce po celé Evropě.",
     features: [
-      "Pásy na všech sedadlech ",
+      "Pásy na všech sedadlech",
       "Polohovatelné sedačky",
       "Plně klimatizovaný",
       "2 lednice a kávovar",
